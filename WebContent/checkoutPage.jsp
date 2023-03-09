@@ -112,7 +112,7 @@ body {
 						<input type="number" class="form-control" id="card-num" name="cardnum" required>
 					</div>
 					<div>
-					<p>Total: <%= session.getAttribute("travellers") %> x <%= session.getAttribute("price") %> = Rs. <%= total %></p>
+					<p>Total: <%= session.getAttribute("travellers") %> x <%= session.getAttribute("price") %> = EUR <%= total %></p>
 					</div>
 					<input type="submit" class="btn btn-primary mb-3" value="Checkout">				
 				</form>
