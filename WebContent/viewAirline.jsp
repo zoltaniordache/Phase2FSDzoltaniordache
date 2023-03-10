@@ -118,7 +118,7 @@ table, th, td {
 				<a href="viewPlace.jsp"><button class="btn btn-primary">View Places</button></a>
 				<button type="button" class="btn btn-primary" data-bs-toggle="modal"
 					data-bs-target="#change">Change Password</button>
-				<a href="LogoutServlet"><button class="btn btn-danger">Logout</button></a>
+				<a href="loginPage.jsp"><button class="btn btn-danger">Logout</button></a>
 			</div>
 		</div>
 		<div class="container">
